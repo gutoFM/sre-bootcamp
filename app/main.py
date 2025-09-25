@@ -1,8 +1,8 @@
 from flask import Flask
-from prometheus_client import COunter, generate_latest
+from prometheus_client import Counter, generate_latest
 
 app = Flask(__name__)
-REQUESTS = COunter('http_requests_total', 'Total HTTP Requests', ['endpoint', 'status'])
+REQUESTS = Counter('http_requests_total', 'Total HTTP Requests', ['endpoint', 'status'])
 
 @app.route('/health')
 def health():
