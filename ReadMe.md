@@ -1,4 +1,4 @@
-# SRE Bootcamp Project – "Service Alfa"
+# SRE Bootcamp Project
 
 ## Overview
 This project was developed as part of the **SRE Bootcamp**, with the main goal of demonstrating planning, automation, and observability implementation for a minimal API service.  
