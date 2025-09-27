@@ -1,0 +1,31 @@
+# Diretórios do Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de estado (contêm dados sensíveis)
+terraform.tfstate
+terraform.tfstate.*
+
+# Planos do Terraform
+*.tfplan
+
+# Variáveis locais (nunca devem ir pro GitHub)
+*.tfvars
+*.tfvars.json
+
+# Credenciais AWS locais (se por acaso estiverem no projeto)
+.aws/
+credentials
+config
+
+# Logs
+*.log
+
+# Ambientes virtuais Python (caso você use venv para a API)
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
