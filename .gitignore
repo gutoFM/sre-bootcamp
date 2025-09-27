@@ -9,11 +9,11 @@ terraform.tfstate.*
 # Planos do Terraform
 *.tfplan
 
-# Variáveis locais (nunca devem ir pro GitHub)
+# Variáveis locais
 *.tfvars
 *.tfvars.json
 
-# Credenciais AWS locais (se por acaso estiverem no projeto)
+# Credenciais AWS locais
 .aws/
 credentials
 config
@@ -21,7 +21,7 @@ config
 # Logs
 *.log
 
-# Ambientes virtuais Python (caso você use venv para a API)
+# Ambientes virtuais Python
 venv/
 __pycache__/
 *.pyc
