@@ -28,7 +28,7 @@ resource "aws_instance" "sre_api" {
               @app.route('/hello')
               def hello():
                   REQUESTS.labels(endpoint="/hello", status="200").inc()
-                  return "Serviço Alfa funcionando!", 200
+                  return "Serviço funcionando!", 200
               @app.route('/metrics')
               def metrics():
                   return generate_latest(), 200
